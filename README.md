@@ -38,13 +38,17 @@ This is a summary of the training course of the Requirements Analysis
 
 ## Artefatos na Análise de Sistemas:
 
+<div align="center">
+  <img src="resources/image04.jpg">
+</div>
+
 ### Análise de Requisitos:
-    - Visão geral do sistema (documento livre).
-    - Visão geral dos casos de uso (diagrama).
-    - Especificação dos casos de uso (documento estruturado).
+- Visão geral do sistema (documento livre).
+- Visão geral dos casos de uso (diagrama).
+- Especificação dos casos de uso (documento estruturado).
   
 ### Análise de Domínio:
-    - Modelo conceitual (modelo de dados em nível de análise).
+- Modelo conceitual (modelo de dados em nível de análise).
 
 ## Diferença entre Artefato e Ferramenta:
 
