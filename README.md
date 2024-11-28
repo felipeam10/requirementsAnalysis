@@ -172,3 +172,47 @@ This is a summary of the training course of the Requirements Analysis
 
 ## **Final Considerations**
 - Classifications serve as guidance and help organize the requirements document.
+
+# **Understanding Use Scenarios and Use Cases**
+
+## **Basic Concepts**
+- **System Requirements**:
+    - Divided into **functional** and **non-functional** requirements.
+    - Use cases are part of **functional requirements**.
+- **Usage**:
+    - Interaction between **actors** and the **system**.
+- **System Actors**:
+    - Users who interact with the system (e.g., anonymous user, client, administrator, operator).
+    - Interaction = **exchange of information** (inputs and outputs).
+
+## **Use Scenario**
+- **Definition**:
+    - A **linear sequence** of interactions between actors and the system.
+    - Does not include branches, conditions, or loops (e.g., "if", "else").
+- **Example: Use Scenario "Sell Book"**:
+    1. **Input**: User provides their identification (e.g., login).
+    2. **Output**: System displays available books (title, cover, price).
+    3. **Input**: Client selects the books they want to purchase.
+    4. **Output**: System informs the total value and presents registered address options.
+    5. **Input**: Client selects the delivery address.
+    6. **Output**: System informs the shipping cost, total amount, and list of registered credit cards.
+    7. **Input**: Client selects a credit card.
+    8. **Output**: System sends the card details and purchase value to the payment processor.
+    9. **Input**: Payment processor provides an authorization code.
+    10. **Output**: System informs the delivery time.
+
+## **Actors in the Scenario**
+- **Anonymous User**: Before identification.
+- **Client**: After identification.
+- **Payment Processor**: Interacts with the system to process the payment.
+
+## **Differentiation**
+- **Use Scenario**:
+    - A **linear sequence** of steps.
+    - Does not include branches or error handling.
+- **Use Case**:
+    - Includes alternative scenarios, such as registering a new address or handling errors (to be covered later).
+
+## **Conclusion**
+- A **use scenario** is a **linear sequence of interactions** between actors and the system.
+- **Use cases** are broader and include alternative scenarios.
