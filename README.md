@@ -127,3 +127,48 @@ This is a summary of the training course of the Requirements Analysis
 <div align="center">
   <img src="resources/image08.jpg">
 </div>
+
+# **Requirements Overview**
+
+## **Definition of Requirements**
+- A requirement is a condition or characteristic that the system must meet.
+- The classification of requirements varies depending on authors and schools of thought.
+
+<div align="center">
+  <img src="resources/image09.jpg">
+</div>
+
+## **Types of Requirements**
+
+### 1. **Functional Requirements**
+- Involve data manipulation (e.g., database operations, queries, saving, etc.).
+- **Subcategories**:
+    - **With User Interaction**:
+        - **Use Cases**:
+            - **CRUD**: Create, Retrieve, Update, Delete (registration screens).
+            - **Reports**: Generate listings or reports based on input arguments.
+            - **Business Processes**: Automation or semi-automation of business processes.
+    - **Without User Interaction**:
+        - **Batch Processing**: Scheduled tasks (e.g., nightly jobs).
+        - **System Integrations**: Data manipulation and information exchange between systems.
+        - **Internal Processing**: Internal operations without user interaction.
+
+### 2. **Non-Functional Requirements**
+- Do not involve data transformations.
+- Also referred to as "quality requirements."
+- **Examples**:
+    - **Usability**: Intelligibility, ease of use.
+    - **Reliability**: Fault tolerance (e.g., resuming processing after an internet outage).
+- **Classifications**:
+    - **Forbes Mais**.
+    - **ISO 9126** (internal and external quality).
+- **Observations**:
+    - Classifications are not mutually exclusive (a requirement can belong to more than one category).
+    - Requirements should be organized into topics in the document.
+
+<div align="center">
+  <img src="resources/image10.jpg">
+</div>
+
+## **Final Considerations**
+- Classifications serve as guidance and help organize the requirements document.
