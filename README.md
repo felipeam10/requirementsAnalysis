@@ -185,6 +185,10 @@ This is a summary of the training course of the Requirements Analysis
     - Users who interact with the system (e.g., anonymous user, client, administrator, operator).
     - Interaction = **exchange of information** (inputs and outputs).
 
+<div align="center">
+  <img src="resources/image11.jpg">
+</div>
+
 ## **Use Scenario**
 - **Definition**:
     - A **linear sequence** of interactions between actors and the system.
@@ -201,6 +205,10 @@ This is a summary of the training course of the Requirements Analysis
     9. **Input**: Payment processor provides an authorization code.
     10. **Output**: System informs the delivery time.
 
+<div align="center">
+  <img src="resources/image12.jpg">
+</div>
+
 ## **Actors in the Scenario**
 - **Anonymous User**: Before identification.
 - **Client**: After identification.
@@ -216,3 +224,61 @@ This is a summary of the training course of the Requirements Analysis
 ## **Conclusion**
 - A **use scenario** is a **linear sequence of interactions** between actors and the system.
 - **Use cases** are broader and include alternative scenarios.
+
+# **Understanding Use Case Scenarios**
+
+## **Definition of a Use Case**
+- A use case is a set of interrelated usage scenarios aimed at a specific objective.
+- It includes:
+    - **Main Scenario**: The ideal flow where everything works as expected.
+    - **Alternative Scenarios**: Different paths or exceptions that may occur.
+
+## **Example of a Use Case**
+- **Use Case: Selling a Book**
+    - **Main Scenario**: A linear sequence of steps to sell a book.
+    - **Alternative Scenarios**: Different paths or exceptions, such as invalid identification.
+
+## **Components of a Use Case**
+. **Main Scenario**:
+- The ideal sequence of steps.
+  . **Exception Scenarios**:
+- Handle errors, such as invalid identification.
+  . **Variant Scenarios**:
+- User options, such as registering a new address.
+
+## **Numbering Alternative Scenarios**
+- Alternative scenarios are numbered based on the step in the main scenario that caused the deviation.
+- Example:
+    - **Exception 1A**: Occurs at step 1 of the main scenario.
+
+## **Data Specificity**
+- Each step must detail the required information (e.g., street, number, ZIP code).
+- This helps developers create accurate screens and functionalities.
+
+## **Use Case Utility**
+. **Design**:
+- Guides designers in defining operations and API endpoints.
+  . **Implementation**:
+- Helps developers ensure all requirements are met.
+  . **Testing**:
+- Assists analysts in designing tests aligned with the data and flows.
+
+## **Use Case as a Contractual Tool**
+- Demonstrates the complexity of the operation.
+- Facilitates cost estimation and pricing for clients.
+
+## **Complete Example**
+- **Main Scenario**:
+    - A detailed sequence of steps.
+- **Exception Scenarios**:
+    - Example: **Exception 1A** - Invalid identification.
+        - Step 1A.1: The system informs the user that the identification is invalid.
+        - Step 1A.2: The system requests the user to re-enter their identification.
+- **Variant Scenarios**:
+    - Example: **Variant 4.1** - Register a new address.
+        - Step 4.1.1: The user provides street, number, complement, ZIP code, city, and state.
+        - Step 4.1.2: The process returns to step 6.
+
+## **Key Notes**
+- Always specify the data required in each step.
+- Ensure clarity for developers to implement the correct functionality.
