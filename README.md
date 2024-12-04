@@ -317,3 +317,36 @@ Following these attributes ensures that use cases are well-defined, promoting cl
 <div align="center">
   <img src="resources/image13.jpg">
 </div>
+
+# Documentation: Use Case Diagram vs. Use Case Detailing
+
+This document explains the key differences between a use case diagram and the detailing of use cases, based on best practices for system modeling.
+
+## Key Differences
+
+### 1. **Use Case Diagram**
+- Provides a **high-level overview** of the system.
+- Displays the **actors** and the **use cases**.
+- Acts as a **panoramic view** of the system's use cases.
+
+### 2. **Use Case Detailing**
+- Contains the **true value** of the use case.
+- Describes the **steps** and the **information exchanged** between the user and the system.
+- Focuses on **best practices** and **techniques** to create effective use cases.
+
+### 3. **Importance of Differentiation**
+- It is crucial to understand that the diagram is only a high-level overview, while the detailing provides deeper and more practical insights.
+
+## Next Steps
+- Learn how to create use case diagrams to express the system's overall view.
+- Study how to effectively detail use cases using best practices and techniques.
+
+---
+
+## Conclusion
+
+Understanding the distinction between use case diagrams and their detailing ensures clarity in system modeling and helps in creating effective use cases.
+
+<div align="center">
+  <img src="resources/image14.jpg">
+</div>
