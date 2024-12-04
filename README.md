@@ -282,3 +282,38 @@ This is a summary of the training course of the Requirements Analysis
 ## **Key Notes**
 - Always specify the data required in each step.
 - Ensure clarity for developers to implement the correct functionality.
+
+# Documentation: Attributes of a Use Case
+
+This document describes the main attributes of a use case, based on best practices for system modeling.
+
+## Attributes of a Use Case
+
+### 1. **Interactivity**
+- A use case must involve **information exchange** between the system and the actors.
+- Complementary steps can be included for better understanding, but the main focus should be on the exchange of information.
+
+### 2. **Single Session**
+- The use case must occur within a **single session of system use**.
+- **Session**: the time interval during which the user is using the system.
+- Example: the user starts an operation, performs the necessary actions, and finishes without interruptions.
+- Complex operations that require more than one session should be divided into **multiple use cases**.
+
+### 3. **Consistent Result**
+- The system must start and finish the use case in a **consistent state**.
+- There must be no pending operations or incomplete calculations at the end of the use case.
+- Even in case of failure or abortion, the system must remain consistent.
+
+## Examples of Use Cases
+- **Making a purchase**: the user selects items, makes the payment, and completes the purchase in a single session.
+- **Registering a payment**: the user enters payment details and confirms the operation, leaving the system in a consistent state.
+
+---
+
+## Conclusion
+
+Following these attributes ensures that use cases are well-defined, promoting clarity and consistency in system development.
+
+<div align="center">
+  <img src="resources/image13.jpg">
+</div>
