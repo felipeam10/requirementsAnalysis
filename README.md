@@ -397,3 +397,44 @@ Use case diagrams are a simple yet powerful tool for representing the high-level
   <img src="resources/image15.jpg">
 </div>
 
+# Documentation: Use Case Diagram - Basic Palette Items
+
+This document provides an overview of the basic palette items used in a use case diagram and an example of their application in a flight reservation system.
+
+## Overview of Basic Palette Items
+
+### 1. **Key Elements of the Diagram**
+- **Use Case**: Represented by **ellipses**.
+- **Actor**: Represented by a **stick figure**.
+- **Interaction**: Represented by a **line** connecting actors and use cases.
+- **System**: Represented by a **rectangle** that delimits the system or module being specified.
+
+### 2. **Example: Flight Reservation System**
+#### Use Cases and Interactions:
+- **Search Flights**:
+    - **Actors**: User (anonymous), Client, and Agent.
+    - **Interaction**: All three actors interact with the "Search Flights" use case.
+- **Cancel Reservation**:
+    - **Actor**: Client.
+    - **Interaction**: Only the client interacts with the "Cancel Reservation" use case.
+- **Book Flights**:
+    - **Actors**: Client and Agent.
+    - **Interaction**: Both interact with the "Book Flights" use case.
+- **Register Flights**:
+    - **Actor**: Secretary.
+    - **Interaction**: Only the secretary interacts with the "Register Flights" use case.
+
+### 3. **Purpose of the Diagram**
+- Provide a **high-level overview** of the interactions between actors and use cases.
+- Focus on **who interacts with what** in the system.
+- Keep it **simple and easy to understand** without delving into details.
+
+---
+
+## Conclusion
+
+The use case diagram is a straightforward tool to visualize the relationships between actors and use cases in a system. By using basic elements such as ellipses, stick figures, lines, and rectangles, it provides a clear and concise representation of the system's functionality.
+
+<div align="center">
+  <img src="resources/image16.jpg">
+</div>
