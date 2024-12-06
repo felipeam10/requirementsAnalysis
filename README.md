@@ -350,3 +350,50 @@ Understanding the distinction between use case diagrams and their detailing ensu
 <div align="center">
   <img src="resources/image14.jpg">
 </div>
+
+# Documentation: Overview of Use Case Diagrams
+
+This document provides an overview of use case diagrams, their purpose, and how they are used to represent the use cases of a system.
+
+## Overview of Use Case Diagrams
+
+### 1. **Purpose of the Use Case Diagram**
+- The use case diagram is a **graphical tool** used to present a **high-level overview** of the system's use cases.
+- It is part of the **UML (Unified Modeling Language)** and is designed to be simple and easy to understand.
+
+### 2. **Key Components**
+- **Use Cases**: Represented as **ellipses** with names, typically starting with a **verb**.
+- **Actors**: Represented as **stick figures** (users or systems interacting with the use cases).
+- **Relationships**: Lines connecting actors to the use cases they interact with.
+
+### 3. **Example: Flight Reservation System**
+- Use cases include:
+    - Search for flights.
+    - Cancel reservation.
+    - Register flight.
+    - Search for airplanes.
+    - Book flight.
+    - Perform flight upgrade.
+- These use cases represent the main functionalities of the system.
+
+### 4. **Characteristics of Use Case Diagrams**
+- **Simplicity**: A straightforward graphical tool that does not require technical expertise to understand.
+- **Analysis Specification**: Focused on describing the problem, not on technical implementation.
+- **Accessibility**: Designed to be understood by business stakeholders and non-technical users.
+
+### 5. **Purpose in Analysis**
+- The use case diagram is used to:
+    - Represent the **use cases** (ellipses).
+    - Identify the **actors** (stick figures) interacting with the use cases.
+    - Show the **relationships** between actors and use cases.
+
+---
+
+## Conclusion
+
+Use case diagrams are a simple yet powerful tool for representing the high-level functionalities of a system. They are accessible to both technical and non-technical stakeholders, making them an essential part of the analysis phase in system design.
+
+<div align="center">
+  <img src="resources/image15.jpg">
+</div>
+
