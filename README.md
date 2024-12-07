@@ -438,3 +438,52 @@ The use case diagram is a straightforward tool to visualize the relationships be
 <div align="center">
   <img src="resources/image16.jpg">
 </div>
+
+# Generalization in Use Case Diagrams
+
+## Overview
+This document explains the concept of **generalization** in UML use case diagrams, as discussed in the lesson.
+
+## What is Generalization?
+Generalization in use case diagrams works similarly to inheritance in object-oriented programming. It allows actors to inherit behaviors and interactions from a more general actor.
+
+### Example:
+- **Client is a User**:
+  - The client can access everything a user can, plus additional specific functionalities.
+- **Agent is a User**:
+  - The agent can access everything a user can, plus additional specific functionalities.
+
+## Benefits of Generalization
+- **Simplifies the Diagram**:
+  - By using generalization, the number of lines in the diagram is reduced.
+  - Example:
+    - Since both client and agent inherit from the user, they automatically interact with the use cases associated with the user.
+    - No need to draw separate lines between client/agent and the use cases (e.g., "Search Flights").
+
+## How to Read Generalization Relationships
+- The relationship is read as:
+  - **Client is a User**.
+  - **Agent is a User**.
+- This is similar to the inheritance concept in object-oriented programming.
+
+## Key Takeaways
+- Generalization helps to organize and simplify use case diagrams.
+- It reduces redundancy by grouping shared behaviors under a general actor.
+- The relationship is intuitive and follows the "is-a" principle.
+
+---
+
+**Example Diagram**:
+- Actors: User, Client, Agent.
+- Use Case: "Search Flights".
+- Generalization:
+  - Client and Agent inherit from User.
+  - No need to draw separate lines between Client/Agent and "Search Flights".
+
+---
+
+Thank you for reading! Feel free to contribute or ask questions.
+
+<div align="center">
+  <img src="resources/image17.jpg">
+</div>
