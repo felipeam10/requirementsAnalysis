@@ -592,3 +592,38 @@ Thank you for reading! Feel free to contribute or ask questions.
 <div align="center">
   <img src="resources/image19.jpg">
 </div>
+
+# Lesson Theme: Detailing System Use Cases
+
+## Definition of Detailing:
+- Also known as **use case expansion**.
+- Specifies the **steps of interaction** between users and the system.
+- Includes:
+  - **Main Scenario**: A list of primary steps.
+  - **Alternative Scenarios**:
+    - **Exceptions**: Error handling.
+    - **Variants**: User options (not errors).
+
+<div align="center">
+  <img src="resources/image20.jpg">
+</div>
+
+### Forms of Description:
+. **Textual Structured Description** (Preferred):
+- Simple and straightforward.
+- Specifies **inputs and outputs** of information.
+  . **Tabular Description**:
+- One column for the actor and another for the actions performed.
+- Details the information exchanged in each step.
+  . **Graphical Description**:
+- Uses **activity diagrams** (action flow diagrams).
+- Can become overloaded with too much information.
+
+### Considerations:
+- Specification should be **quick and agile** to save time.
+- UML does not define a standard for the textual description of steps.
+- Best practices will be covered in future lessons.
+
+<div align="center">
+  <img src="resources/image21.jpg">
+</div>
