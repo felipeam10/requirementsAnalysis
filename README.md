@@ -487,3 +487,58 @@ Thank you for reading! Feel free to contribute or ask questions.
 <div align="center">
   <img src="resources/image17.jpg">
 </div>
+
+# Extend Relationship in Use Case Diagrams
+
+## Overview
+This document explains the **extend relationship** in UML use case diagrams, as discussed in the lesson.
+
+## What is the Extend Relationship?
+The extend relationship is used to indicate that one use case **optionally extends** the functionality of another use case. It is represented by a **dotted arrow** with the label `<<extend>>`.
+
+### Key Characteristics:
+- The arrow points **from the extending use case** to the **base use case**.
+- The extending use case represents **optional functionality** that occurs in **specific scenarios** of the base use case.
+
+## When to Use the Extend Relationship?
+Use the extend relationship when:
+- The extending use case is **not always executed** as part of the base use case.
+- The functionality it provides is **optional** and depends on specific conditions.
+
+### Example:
+- **Base Use Case**: "Reserve Flight".
+- **Extending Use Case**: "Upgrade Flight".
+- Explanation:
+  - A user commonly reserves a flight.
+  - Occasionally, the user may choose to upgrade the flight, which is an optional action.
+  - The relationship is represented as: `Upgrade Flight` **extends** `Reserve Flight`.
+
+## How to Read the Extend Relationship?
+The relationship is read as:
+- "`Upgrade Flight` extends the functionality of `Reserve Flight`."
+
+## Scenarios
+- There must be scenarios in the base use case where the extending use case is **not executed**.
+- In the detailed steps of the base use case, there should be an indication of the possibility to execute the extending use case.
+
+---
+
+## Example Diagram
+- **Base Use Case**: Reserve Flight.
+- **Extending Use Case**: Upgrade Flight.
+- **Relationship**: `Upgrade Flight` extends `Reserve Flight`.
+
+---
+
+## Key Takeaways
+- The extend relationship is used to represent **optional functionality** in use case diagrams.
+- It simplifies the representation of scenarios where additional actions may or may not occur.
+- The relationship is intuitive and helps to clarify optional interactions in the system.
+
+---
+
+Thank you for reading! Feel free to contribute or ask questions.
+
+<div align="center">
+  <img src="resources/image18.jpg">
+</div>
