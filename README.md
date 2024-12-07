@@ -542,3 +542,53 @@ Thank you for reading! Feel free to contribute or ask questions.
 <div align="center">
   <img src="resources/image18.jpg">
 </div>
+
+# Include Relationship in Use Case Diagrams
+
+## Overview
+This document explains the **include relationship** in UML use case diagrams, as discussed in the lesson.
+
+## What is the Include Relationship?
+The include relationship is used to indicate that one use case **always includes** the execution of another use case during its process. It is represented by a **solid arrow** with the label `<<include>>`.
+
+### Key Characteristics:
+- The arrow points **from the base use case** to the **auxiliary use case**.
+- The auxiliary use case is **mandatory** and will always be executed as part of the base use case.
+
+## Differences Between Include and Extend
+. **Direction of the Arrow**:
+- In the include relationship, the arrow **starts from the base use case** and **points to the auxiliary use case**.
+- In the extend relationship, the arrow **points to the base use case**.
+  . **Obligation**:
+- In the include relationship, the auxiliary use case is **mandatory**.
+- In the extend relationship, the extending use case is **optional**.
+
+## Example
+- **Base Use Case**: "Register Flight".
+- **Auxiliary Use Case**: "Search Aircraft".
+- **Explanation**:
+  - Whenever the secretary executes "Register Flight", they must **always** execute "Search Aircraft" as part of the process.
+  - However, "Search Aircraft" can also be executed **independently**, without being tied to "Register Flight".
+
+## How to Read the Include Relationship?
+The relationship is read as:
+- "`Register Flight` includes the functionality of `Search Aircraft`."
+
+## Why Represent It in the Diagram?
+Although "Search Aircraft" is included in "Register Flight", it is also an **independent use case**. For example:
+- The secretary can log into the system, search for an aircraft, and exit without registering a flight.
+
+---
+
+## Key Takeaways
+- The include relationship is used to represent **mandatory functionality** in use case diagrams.
+- It ensures clarity in scenarios where a use case depends on another but also allows for independent execution of the auxiliary use case.
+- The relationship helps to simplify and organize the representation of system interactions.
+
+---
+
+Thank you for reading! Feel free to contribute or ask questions.
+
+<div align="center">
+  <img src="resources/image19.jpg">
+</div>
