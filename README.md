@@ -627,3 +627,78 @@ Thank you for reading! Feel free to contribute or ask questions.
 <div align="center">
   <img src="resources/image21.jpg">
 </div>
+
+# Use Case Documentation Template
+
+This repository provides a basic template for describing use cases. The template includes the main sections and guidelines to ensure clarity and completeness when documenting functional requirements.
+
+## Template Overview
+
+### 1. **Actors and Stakeholders**
+- Identify the actors involved in the use case.
+- Specify stakeholders, such as departments or other interested parties (e.g., Marketing Department).
+
+### 2. **Preconditions and Postconditions**
+- **Preconditions**: Conditions assumed to be true before the use case starts (e.g., operator logged into the system).
+- **Postconditions**: Conditions assumed to be true after the use case ends successfully (e.g., book sold).
+
+### 3. **Overview**
+- A brief explanation of the use case to help with quick identification and understanding.
+- Can be used for cost estimation purposes.
+
+### 4. **Main Success Scenario**
+- The most common sequence of steps where everything works as expected without errors.
+
+### 5. **Alternative Scenarios**
+- **Variants**: Different options the user can follow.
+- **Exceptions**: Error scenarios and how they are handled.
+
+### 6. **Additional Information**
+- Include complementary details such as:
+  - Screen prototypes.
+  - Related requirements or business rules.
+  - Mathematical formulas or expressions.
+  - Technological variations (e.g., mobile vs. desktop behavior).
+  - Open questions (e.g., pending decisions about payment methods like PIX or credit card).
+  - Detailed descriptions of data if too extensive to include in the main steps.
+
+## Example Use Case Structure
+
+```markdown
+# Use Case: [Use Case Name]
+
+## Overview
+A brief description of the use case.
+
+## Actors
+- [Actor 1]
+- [Actor 2]
+
+## Stakeholders
+- [Stakeholder 1]
+- [Stakeholder 2]
+
+## Preconditions
+- [Precondition 1]
+- [Precondition 2]
+
+## Postconditions
+- [Postcondition 1]
+- [Postcondition 2]
+
+## Main Success Scenario
+. [Step 1]
+. [Step 2]
+. [Step 3]
+
+## Alternative Scenarios
+### Variants
+- [Variant 1]
+- [Variant 2]
+
+### Exceptions
+- [Exception 1]
+- [Exception 2]
+
+## Additional Information
+- [Prototype links, business rules, or other relevant details]
