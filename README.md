@@ -702,3 +702,17 @@ A brief description of the use case.
 
 ## Additional Information
 - [Prototype links, business rules, or other relevant details]
+
+```
+<div align="center">
+  <img src="resources/image23.jpg">
+</div>
+
+<div align="center">
+  <img src="resources/image24.jpg">
+</div>
+
+<div align="center">
+  <img src="resources/image25.jpg">
+</div>
+
